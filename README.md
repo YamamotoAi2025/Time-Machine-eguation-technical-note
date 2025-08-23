@@ -17,7 +17,7 @@ technical note 1
 - 時間空間座標:
 - 
   \$$
-  \boldsymbol{\tau} = (\tau_1, \tau_2, \tau_3), \quad \rho = |\boldsymbol{\tau}|
+   \boldsymbol{\tau} = (\tau_1, \tau_2, \tau_3), \quad \rho = |\boldsymbol{\tau}|
   \$$
 
 - 波動関数（状態関数）を空間と時間空間に分離:
