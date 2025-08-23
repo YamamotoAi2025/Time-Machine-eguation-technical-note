@@ -15,7 +15,7 @@ technical note 1
   \$$
   
 - 時間空間座標:
-  
+- 
   \$$
   \boldsymbol{\tau} = (\tau_1, \tau_2, \tau_3), \quad \rho = |\boldsymbol{\tau}|
   \$$
@@ -23,7 +23,7 @@ technical note 1
 - 波動関数（状態関数）を空間と時間空間に分離:
 - 
  \$$ 
-  \Psi(\mathbf{x}, \boldsymbol{\tau}) = X(\mathbf{x}) \, T(\boldsymbol{\tau})
+\Psi(\mathbf{x}, \boldsymbol{\tau}) = X(\mathbf{x}) \, T(\boldsymbol{\tau})
   \$$
 
 - さらに時間空間側を球対称に展開:
@@ -42,6 +42,7 @@ technical note 1
 質量二乗は負の値を取り、マイナスエネルギーに寄与する。
 
 - 時間空間の放射状方程式:
+- 
   \$$
   \frac{d^2R}{d\rho^2} + \frac{2}{\rho}\frac{dR}{d\rho} 
   - \frac{\ell(\ell+1)}{\rho^2}R 
@@ -61,6 +62,7 @@ technical note 1
 重力波は、実空間と時間空間の双方の成分を含むと考えられる。  
 そのエネルギーは次のように変数分離的に表現できる:
 
+-
 \$$
 E_{\text{GW}} 
 = E_{\text{space}} 
@@ -70,7 +72,7 @@ E_{\text{GW}}
 
 - \$(E_{\text{space}}\)$: 実空間の曲率に由来するエネルギー  
 - \$(E_{\text{time}}\)$: 時間空間（時間素粒子）の寄与によるエネルギー  
-- \(E_{\text{interaction}}\): 実空間と時間空間の相互作用項
+- \$(E_{\text{interaction}}\)$: 実空間と時間空間の相互作用項
 
 この分割により、重力波観測を通して **時間素粒子（マイナスエネルギー）の痕跡を分離・解析**できる可能性がある。
 
