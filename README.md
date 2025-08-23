@@ -15,22 +15,21 @@ technical note 1
   \$$
   
 - 時間空間座標:
-- 
-  \$$
-   \boldsymbol{\tau} = (\tau_1, \tau_2, \tau_3)$$,$$ \quad \rho = |\boldsymbol{\tau}|\
-  \$$
+- $$
+   \boldsymbol{\tau} = (\tau_1, \tau_2, \tau_3),\quad \rho = |\boldsymbol{\tau}|\
+  $$
 
 - 波動関数（状態関数）を空間と時間空間に分離:
 - 
- \$$ 
+  $$ 
 \Psi(\mathbf{x}, \boldsymbol{\tau}) = X(\mathbf{x}) \, T(\boldsymbol{\tau})\
-  \$$
+  $$
 
 - さらに時間空間側を球対称に展開:
 - 
-  \$$
-  T(\boldsymbol{\tau}) = R(\rho) \$$, $$Y_\ell(\Omega_\tau)\
-  \$$
+$$
+  T(\boldsymbol{\tau}) = R(\rho) \, Y_\ell(\Omega_\tau)\
+$$
 
   ここで$ \( Y_\ell \) $は時間空間における球面調和関数。
 
@@ -43,11 +42,10 @@ technical note 1
 
 - 時間空間の放射状方程式:
 - 
-  \$$
-  \frac{d^2R}{d\rho^2} + \frac{2}{\rho}\frac{dR}{d\rho} $$
- $$ - \frac{\ell(\ell+1)}{\rho^2}R 
+$$\frac{d^2R}{d\rho^2} + \frac{2}{\rho}\frac{dR}{d\rho} 
+   - \frac{\ell(\ell+1)}{\rho^2}R 
   + \left[ U(\rho) - \mu^2 \right]R = 0
-  \$$
+$$
 
 - \$(U(\rho)\)$ は時間ポテンシャル関数であり、  
   - 自然な解 → 未来へ流れるポテンシャル  
@@ -63,12 +61,12 @@ technical note 1
 そのエネルギーは次のように変数分離的に表現できる:
 
 -
-\$$
-E_{\text{GW}} $$
+$$
+E_{\text{GW}}
 = E_{\text{space}} 
 + E_{\text{time}} 
 + E_{\text{interaction}}
-  \$$
+$$
 
 - \$(E_{\text{space}}\)$: 実空間の曲率に由来するエネルギー  
 - \$(E_{\text{time}}\)$: 時間空間（時間素粒子）の寄与によるエネルギー  
