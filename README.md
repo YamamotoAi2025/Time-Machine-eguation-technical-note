@@ -10,15 +10,15 @@ technical note 1
 - 実空間座標:
   
 - 
-  \$$
+  \$
   \mathbf{x} = (x,y,z)
-  \$$
+  \$
   
 - 時間空間座標:
   $\boldsymbol{\tau} = (\tau_1, \tau_2, \tau_3),\quad \rho = |\boldsymbol{\tau}|\ $
 
 - 波動関数（状態関数）を空間と時間空間に分離:
-$ \Psi(\mathbf{x}, \boldsymbol{\tau}) = X(\mathbf{x}) \, T(\boldsymbol{\tau})\$
+$$ \Psi(\mathbf{x}, \boldsymbol{\tau}) = X(\mathbf{x}) \, T(\boldsymbol{\tau})\$$
 
 - さらに時間空間側を球対称に展開:
 $$ T(\boldsymbol{\tau}) = R(\rho) \, Y_\ell(\Omega_\tau)\$$
