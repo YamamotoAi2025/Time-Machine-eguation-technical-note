@@ -7,25 +7,33 @@ technical note 1
 
 時間空間を 3 次元構造として導入し、実空間と対称的に扱う。
 
-- 実空間座標:  
+- 実空間座標:
+- $$
   \[
   \mathbf{x} = (x,y,z)
   \]
-
-- 時間空間座標:  
+  $$
+  
+- 時間空間座標:
+- $$
   \[
   \boldsymbol{\tau} = (\tau_1, \tau_2, \tau_3), \quad \rho = |\boldsymbol{\tau}|
   \]
+  $$
 
-- 波動関数（状態関数）を空間と時間空間に分離:  
+- 波動関数（状態関数）を空間と時間空間に分離:
+- $$
   \[
   \Psi(\mathbf{x}, \boldsymbol{\tau}) = X(\mathbf{x}) \, T(\boldsymbol{\tau})
   \]
+  $$
 
-- さらに時間空間側を球対称に展開:  
+- さらに時間空間側を球対称に展開:
+- $$
   \[
   T(\boldsymbol{\tau}) = R(\rho) \, Y_\ell(\Omega_\tau)
   \]
+  $$
   ここで \( Y_\ell \) は時間空間における球面調和関数。
 
 ---
