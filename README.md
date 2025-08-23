@@ -17,7 +17,7 @@ technical note 1
 - 時間空間座標:
 - 
   \$$
-   \boldsymbol{\tau} = (\tau_1, \tau_2, \tau_3), \quad \rho = |\boldsymbol{\tau}|\
+   \boldsymbol{\tau} = (\tau_1, \tau_2, \tau_3)$$,$$ \quad \rho = |\boldsymbol{\tau}|\
   \$$
 
 - 波動関数（状態関数）を空間と時間空間に分離:
@@ -29,7 +29,7 @@ technical note 1
 - さらに時間空間側を球対称に展開:
 - 
   \$$
-  T(\boldsymbol{\tau}) = R(\rho) \, Y_\ell(\Omega_\tau)\
+  T(\boldsymbol{\tau}) = R(\rho) \$$, $$Y_\ell(\Omega_\tau)\
   \$$
 
   ここで$ \( Y_\ell \) $は時間空間における球面調和関数。
@@ -44,8 +44,8 @@ technical note 1
 - 時間空間の放射状方程式:
 - 
   \$$
-  \frac{d^2R}{d\rho^2} + \frac{2}{\rho}\frac{dR}{d\rho} 
-  - \frac{\ell(\ell+1)}{\rho^2}R 
+  \frac{d^2R}{d\rho^2} + \frac{2}{\rho}\frac{dR}{d\rho} $$
+ $$ - \frac{\ell(\ell+1)}{\rho^2}R 
   + \left[ U(\rho) - \mu^2 \right]R = 0
   \$$
 
@@ -64,7 +64,7 @@ technical note 1
 
 -
 \$$
-E_{\text{GW}} 
+E_{\text{GW}} $$
 = E_{\text{space}} 
 + E_{\text{time}} 
 + E_{\text{interaction}}
