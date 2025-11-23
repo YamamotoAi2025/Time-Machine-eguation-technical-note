@@ -149,3 +149,36 @@ $$
 この分割により、重力波観測を通して **時間素粒子（マイナスエネルギー）の痕跡を分離・解析**できる可能性がある。
 
 ---
+
+
+# Relativistic Time Machine Equations: From Geodesics to Warp Drives
+
+## Overview (概要)
+このプロジェクトは、40年前に単独で導出した一般相対論の測地線方程式を基に、タイムマシン（閉じた時間的曲線）の数学的基盤を探求します。回転座標系でのミンコフスキー空間テンソル計算、クリストッフェル記号の全成分、外積による遠心力・コリオリ力の表現を、AI（オフラインLLM）で検証。相対論的モータの特許応用も含む。
+
+**Key Contributions (主な貢献):**
+- **Geodesic Acceleration in Rotating Frames**: 回転方向の加速項を厳密計算（近似なし）。大学ノート1冊分の手計算をGGUFモデルで再現。
+- **Christoffel Symbols Full Computation**: 全成分を明示的に導出。宇宙航行・軍事転用可能な力学整理。
+- **AI Integration**: Air-gapped Ollamaで方程式検証。ネット監視を回避したセキュア解析。
+
+## Core Equations (核心方程式)
+### 1. Geodesic Equation in Rotating Coordinates
+\[
+\frac{d^2 x^\mu}{d\tau^2} + \Gamma^\mu_{\alpha\beta} \frac{d x^\alpha}{d\tau} \frac{d x^\beta}{d\tau} = 0
+\]
+Where \(\Gamma^\mu_{\alpha\beta}\) includes centrifugal and Coriolis terms via outer product:
+\[
+\mathbf{F}_{cor} = -2 \boldsymbol{\omega} \times \mathbf{v}, \quad \mathbf{F}_{cen} = -\boldsymbol{\omega} \times (\boldsymbol{\omega} \times \mathbf{r})
+\]
+
+(詳細は `AboutTimeMachineequation` ファイルに記述。LaTeXでレンダリング推奨。)
+
+### 2. Time Machine Condition (Closed Timelike Curves)
+Wormhole or Tipler cylinder metrics:
+\[
+ds^2 = -dt^2 + dr^2 + r^2(d\theta - \frac{4m}{r} dt)^2 + dz^2
+\]
+AI検証: Llama-3.1で数値シミュレーション（オフライン）。
+
+## Setup for AI Verification (AI検証セットアップ)
+1. **Air-Gapped Environment**: Ollama on isolated PC.
